@@ -1,7 +1,7 @@
 /** 
  * A closure is a function that holds onto its surrounding scope 
- * ("lexical environment") even after code execution has moved
- *  passed that block. Watch out for memory leaks.
+ * (its "lexical environment") even after code execution has moved
+ * outside the block. Watch out for memory leaks.
  */
 const impure = () => {
   let _hidden = 1;
